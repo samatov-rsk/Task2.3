@@ -1,12 +1,9 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Island2 {
 
     private final Wood3 wood;
 
-    @Autowired //TODO убрать и понять почему убрал
     public Island2(Wood3 wood) {
         this.wood = wood;
     }
